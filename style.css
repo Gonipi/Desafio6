@@ -59,3 +59,17 @@
     width: 50px;
     padding: 35px 10px 10px 10px;
 }
+
+.video{
+    width: 90%;
+    margin: auto;
+}
+
+.video video{
+    width: 100%;
+}
+
+.cabecera img{
+    display: block;
+    margin: auto;
+}
