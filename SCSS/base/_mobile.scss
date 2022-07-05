@@ -1,0 +1,27 @@
+@media only screen and (max-width: 480px){
+    .navegador{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: auto;
+    }
+    .menu{
+        width: 80%;
+    }
+    .nosotras{
+        display: flex;
+        flex-direction: column;
+    }
+    .nosotras-texto{
+        text-align: left;
+        width: 90%;
+        margin: auto;
+
+    }
+    .nosotras img{
+        margin: 15px auto;
+    }
+    .footer{
+        margin-top: 15px;
+    }
+}

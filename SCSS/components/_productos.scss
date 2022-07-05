@@ -1,0 +1,43 @@
+.productos{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.productos img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.8s;
+}
+
+.productos h3{
+    font-size: 29px;
+}
+
+.bloque-texto, .bloque-texto-2{
+    align-self: center;
+}
+
+.bloque-texto-2{
+    text-align: right;
+}
+
+.productos p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+
+@keyframes agrandaRedondea{
+    50%{
+        border-radius: 50%;
+    }
+}
+.productos img:hover{
+    animation: agrandaRedondea 2s;
+}
