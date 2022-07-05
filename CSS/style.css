@@ -202,4 +202,70 @@
   }
 }
 
+
 /*# sourceMappingURL=style.css.map */
+
+/*Mobile*/
+
+@media only screen and (max-width: 480px){
+    .formulario{
+        grid-template-columns: 1fr;
+        grid-row: 3;
+    }
+    .productos{
+        grid-template-columns: 1fr;
+        grid-row: 6;
+    }
+    .navegador{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: auto;
+    }
+    .menu{
+        width: 80%;
+    }
+    .nosotras{
+        display: flex;
+        flex-direction: column;
+    }
+    .nosotras-texto{
+        text-align: left;
+        width: 90%;
+        margin: auto;
+
+    }
+    .nosotras img{
+        margin: 15px auto;
+    }
+    .footer{
+        margin-top: 15px;
+    }
+}
+
+.menu li{
+    transition: all 0.8s;
+}
+.menu li:hover{
+    transform: scale(1.5);
+}
+.productos img:hover{
+    animation: agrandaRedondea 2s;
+}
+
+@keyframes agrandaRedondea{
+    50%{
+        border-radius: 50%;
+    }
+}
+
+.titulo-servicios, .titulo-productos, .titulo-contacto{
+    text-align: left;
+    padding: 40px 0px 40px 80px;
+    font-size: 40px;
+}
+
+.productos img:hover{
+    animation: agrandaRedondea 2s;
+}
+
