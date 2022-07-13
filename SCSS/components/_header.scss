@@ -1,6 +1,6 @@
 .cabecera{
-    background-color: #eeece8;
-    font-family: 'Montserrat', sans-serif;
+    background-color: map-get($standard, color-standard);
+    font-family: map-get($standard, font-standard );
     padding-top: 15px;
     position: sticky;
     top: 0;
